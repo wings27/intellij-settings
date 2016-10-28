@@ -1,0 +1,11 @@
+<application>
+  <component name="UISettings">
+    <option name="FONT_FACE" value="Microsoft YaHei UI" />
+    <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="SHOW_CLOSE_BUTTON" value="false" />
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="17" />
+  </component>
+</application>

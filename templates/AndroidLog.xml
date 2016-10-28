@@ -1,0 +1,7 @@
+<templateSet group="AndroidLog">
+  <template name="logm" value="LogUtils.warn(LOGGER, &quot;$METHOD_NAME$() called with &quot; +  $args$);" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="args" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + '\&quot;'&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+</templateSet>

@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping pattern="a" type="Native" />
+      <mapping ext="xmind" type="Native" />
+      <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="text" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

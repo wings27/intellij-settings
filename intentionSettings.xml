@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Annotations/Expand Annotation to Normal Form" />
+  </component>
+</application>
