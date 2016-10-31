@@ -34,12 +34,6 @@
       <option name="MAVEN" value="false" />
       <option name="ASPECTJ" value="false" />
       <option name="OGNL" value="false" />
-      <option name="KOTLIN" value="false" />
-      <option name="KOTLIN_TOPLEVEL" value="false" />
-      <option name="KOTLIN_STATEMENT" value="false" />
-      <option name="KOTLIN_CLASS" value="false" />
-      <option name="KOTLIN_EXPRESSION" value="false" />
-      <option name="KOTLIN_COMMENT" value="false" />
       <option name="Python" value="false" />
       <option name="Django" value="false" />
       <option name="RUBY" value="false" />
