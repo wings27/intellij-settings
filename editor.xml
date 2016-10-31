@@ -5,16 +5,4 @@
     <option name="SHOW_INLINE_DIALOG" value="false" />
   </component>
   <component name="LiveEditOptions" updatePolicy="AUTO" />
-  <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="a8c023" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="ERROR_STRIPE_COLOR" value="a74c0" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="a8c023" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="ERROR_STRIPE_COLOR" value="a74c0" />
-    </pattern>
-  </component>
 </application>
