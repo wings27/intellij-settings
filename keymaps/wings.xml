@@ -3,10 +3,12 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="EditorDeleteLine" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt j" />
@@ -29,6 +31,9 @@
   </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
+  </action>
+  <action id="Macro.paste to word at current caret">
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
