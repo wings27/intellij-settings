@@ -25,6 +25,10 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
+  <action id="ForceRunToCursor">
+    <keyboard-shortcut first-keystroke="ctrl alt f9" />
+    <keyboard-shortcut first-keystroke="ctrl f8" />
+  </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
@@ -37,8 +41,31 @@
   </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
+  <action id="RunJsbtTask" />
   <action id="SelectNextOccurrence" />
+  <action id="ShowBookmarks" />
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="alt f11" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f8" />
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
 </keymap>
