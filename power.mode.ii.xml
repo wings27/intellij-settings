@@ -1,0 +1,7 @@
+<application>
+  <component name="PowerModeII">
+    <option name="enabled" value="false" />
+    <option name="flamesEnabled" value="false" />
+    <option name="shakeEnabled" value="false" />
+  </component>
+</application>
