@@ -8,6 +8,7 @@
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="Console.TableResult.MaximizeEditingCell" />
   <action id="EditorDeleteLine" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -82,5 +83,8 @@
   <action id="ToggleBookmark" />
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="shift ctrl alt m" />
   </action>
 </keymap>
