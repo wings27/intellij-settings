@@ -1,5 +1,10 @@
 <application>
-  <component name="NotificationConfiguration">
+  <component name="NotificationConfiguration" showBalloons="false">
     <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" shouldLog="false" />
+    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Vcs Messages" displayType="TOOL_WINDOW" shouldLog="false" />
+    <notification groupId="Vcs Minor Notifications" shouldLog="false" />
+    <notification groupId="Vcs Silent Notifications" displayType="NONE" shouldLog="false" />
+    <notification groupId="Web Deployment" shouldLog="false" />
   </component>
 </application>
