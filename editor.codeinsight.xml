@@ -4,6 +4,7 @@
     <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
     <option name="ADD_IMPORTS_ON_PASTE" value="1" />
     <option name="HIGHLIGHT_SCOPE" value="true" />
+    <option name="USE_ACCESSORS_IN_EQUALS_HASHCODE" value="true" />
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="com.alibaba.dubbo.common.logger" />
