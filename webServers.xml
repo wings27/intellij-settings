@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="c72ce063-25f5-4685-8c8f-817734bcec9d" name="10.17.1.156" url="http://localhost">
+        <fileTransfer host="10.17.1.156" port="22" privateKey="C:\Users\wenqiushi\.ssh\id_rsa" rootFolder="/home/op-pack/cmdbweb" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="119ee9a8-d843-4284-a8b5-bc8581918ac3" name="10.18.20.3" url="http://10.18.20.3">
         <fileTransfer host="10.18.20.3" port="22" privateKey="C:\Users\wenqiushi\.ssh\id_rsa" accessType="SFTP" username="root" keyPair="true">
           <advancedOptions>
