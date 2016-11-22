@@ -37,6 +37,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="Macro.paste to word at current caret">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
@@ -51,6 +54,10 @@
   <action id="RunJsbtTask" />
   <action id="SelectNextOccurrence" />
   <action id="ShowBookmarks" />
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="ctrl alt f7" />
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift f7" />
     <keyboard-shortcut first-keystroke="alt f11" />
