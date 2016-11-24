@@ -757,6 +757,18 @@
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/multipart-post-2.0.0/lib" />
       </SOURCES>
     </library>
+    <library name="multiple-select" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_multiple-select_1.2.0_multiple-select.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_multiple-select_1.2.0_multiple-select.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="net-http-persistent-2.9.4 (v2.9.4, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/net-http-persistent-2.9.4/lib" />
