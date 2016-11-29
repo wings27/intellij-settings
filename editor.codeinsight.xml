@@ -8,6 +8,7 @@
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="com.alibaba.dubbo.common.logger" />
+    <EXCLUDED_PACKAGE NAME="com.sun.javafx" />
     <EXCLUDED_PACKAGE NAME="junit.framework" />
   </component>
   <component name="JavaCodeFoldingSettings">
