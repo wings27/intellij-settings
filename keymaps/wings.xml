@@ -3,12 +3,22 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="BrowseWordAtCaretPlugin.Next">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
+  </action>
+  <action id="BrowseWordAtCaretPlugin.Previous">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Console.TableResult.MaximizeEditingCell" />
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
   <action id="EditorDeleteLine" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -43,7 +53,9 @@
   <action id="Macro.paste to word at current caret">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="NextOccurence" />
   <action id="NextTab" />
+  <action id="PreviousOccurence" />
   <action id="PreviousTab" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
@@ -72,6 +84,7 @@
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
