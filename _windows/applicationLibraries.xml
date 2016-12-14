@@ -1005,5 +1005,17 @@
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/websocket-1.2.3/lib" />
       </SOURCES>
     </library>
+    <library name="xml" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_codemirror_5.18.2_mode_xml_xml.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_codemirror_5.18.2_mode_xml_xml.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </application>
