@@ -1000,10 +1000,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_vue_2.1.6_vue.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__vuejs.org_js_vue.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_vue_2.1.6_vue.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__vuejs.org_js_vue.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
