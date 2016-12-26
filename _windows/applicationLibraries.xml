@@ -884,21 +884,6 @@
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/pusher-client-0.6.2/certs" />
       </SOURCES>
     </library>
-    <library name="Python 3.5.1 (C:\Anaconda3\python.exe) interpreter library">
-      <CLASSES>
-        <root url="file://C:/Python34/DLLs" />
-        <root url="file://C:/Python34/Lib" />
-        <root url="file://C:/Python34" />
-        <root url="file://C:/Python34/Lib/site-packages" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="file://C:/Python34/DLLs" />
-        <root url="file://C:/Python34/Lib" />
-        <root url="file://C:/Python34" />
-        <root url="file://C:/Python34/Lib/site-packages" />
-      </SOURCES>
-    </library>
     <library name="rake (v10.4.2, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/rake-10.4.2/bin" />
