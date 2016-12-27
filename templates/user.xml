@@ -15,8 +15,16 @@
   <template name="todo" value="// todo @$USER$&#10;throw new java.lang.RuntimeException(&quot;todo&quot;);" description="java todo" toReformat="true" toShortenFQNames="true">
     <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="post" value="$.post($URL$, {$PARAM$}, function (res) {&#10;    if (res.code != 0) {&#10;        window.Util.toast(&quot;操作失败：code=&quot; + res.code + &quot;. &quot; + res.popups.content);&#10;        }&#10;});&#10;" toReformat="true" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
