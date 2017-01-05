@@ -1,17 +1,15 @@
 <scheme name="wings" version="142" parent_scheme="Darcula">
-  <option name="LINE_SPACING" value="1.2" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
     <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="SimSun" />
-    <option name="EDITOR_FONT_SIZE" value="16" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_SIZE" value="15" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <attributes>
     <option name="MARKDOWN_NAVIGATOR.BOLD_ABBREVIATED_TEXT">
       <value>
