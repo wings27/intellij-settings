@@ -7,8 +7,14 @@
     <option name="EDITOR_FONT_NAME" value="SimSun" />
     <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="Consolas" />
-  <option name="CONSOLE_FONT_SIZE" value="15" />
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Consolas" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="SimSun" />
+    <option name="EDITOR_FONT_SIZE" value="15" />
+  </console-font>
   <attributes>
     <option name="MARKDOWN_NAVIGATOR.BOLD_ABBREVIATED_TEXT">
       <value>
