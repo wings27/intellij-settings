@@ -1,7 +1,7 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="Gitflow Notifications" displayType="NONE" />
-    <notification groupId="Platform and Plugin Updates" />
+    <notification groupId="Platform and Plugin Updates" displayType="NONE" />
     <notification groupId="Unindexed maven repositories gradle detection" displayType="NONE" shouldLog="false" />
     <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" shouldLog="false" />
     <notification groupId="Vcs Messages" displayType="TOOL_WINDOW" shouldLog="false" />
