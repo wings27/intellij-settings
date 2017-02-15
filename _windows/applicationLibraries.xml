@@ -637,8 +637,13 @@
     <library name="jquery" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_jquery_1.8.3_jquery.js" />
+        </sourceFilesUrls>
       </properties>
-      <CLASSES />
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_jquery_1.8.3_jquery.js" />
+      </CLASSES>
       <DOCUMENTATION>
         <root url="http://api.jquery.com" />
       </DOCUMENTATION>
@@ -1018,6 +1023,18 @@
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/typhoeus-0.8.0/lib" />
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/typhoeus-0.8.0/perf" />
       </SOURCES>
+    </library>
+    <library name="underscore" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_underscore.js_1.8.3_underscore.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_underscore.js_1.8.3_underscore.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="vue" type="javaScript">
       <properties>
