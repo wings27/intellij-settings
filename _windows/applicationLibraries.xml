@@ -1019,10 +1019,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_sockjs-client_1.1.2_sockjs.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_sockjs-client_1.0.0_sockjs.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_sockjs-client_1.1.2_sockjs.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_sockjs-client_1.0.0_sockjs.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
