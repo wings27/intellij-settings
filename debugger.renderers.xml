@@ -11,8 +11,6 @@
     </Renderer>
     <Renderer ID="ToStringRenderer">
       <option name="NAME" value="unnamed" />
-      <option name="ENABLED" value="true" />
-      <option name="USE_CLASS_FILTERS" value="false" />
     </Renderer>
     <Renderer ID="ClassRenderer">
       <option name="NAME" value="unnamed" />
