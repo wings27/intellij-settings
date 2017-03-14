@@ -10,6 +10,7 @@
     <EXCLUDED_PACKAGE NAME="com.alibaba.dubbo.common.logger" />
     <EXCLUDED_PACKAGE NAME="com.esotericsoftware.minlog.Log" />
     <EXCLUDED_PACKAGE NAME="com.sun.javafx" />
+    <EXCLUDED_PACKAGE NAME="com.sun.xml.internal.xsom.impl.scd.Iterators.Map" />
     <EXCLUDED_PACKAGE NAME="junit.framework" />
   </component>
 </application>
