@@ -1065,6 +1065,18 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="switchery" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_switchery_0.8.2_switchery.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_switchery_0.8.2_switchery.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="test-unit (v3.1.5, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/test-unit-3.1.5/lib" />
