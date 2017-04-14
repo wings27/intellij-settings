@@ -706,6 +706,18 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="jquery.dataTables" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_datatables_1.10.13_js_jquery.dataTables.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_datatables_1.10.13_js_jquery.dataTables.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="jquery.fileupload" type="javaScript">
       <properties>
         <sourceFilesUrls>
