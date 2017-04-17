@@ -59,6 +59,30 @@
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/colorator-0.1/lib" />
       </SOURCES>
     </library>
+    <library name="dataTables.buttons" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.datatables.net_buttons_1.2.4_js_dataTables.buttons.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.datatables.net_buttons_1.2.4_js_dataTables.buttons.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="dataTables.select" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.datatables.net_select_1.2.0_js_dataTables.select.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.datatables.net_select_1.2.0_js_dataTables.select.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="did_you_mean (v1.0.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/lib" />
@@ -710,10 +734,12 @@
       <properties>
         <sourceFilesUrls>
           <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_datatables_1.10.13_js_jquery.dataTables.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.datatables.net_1.10.13_js_jquery.dataTables.js" />
         </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_datatables_1.10.13_js_jquery.dataTables.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.datatables.net_1.10.13_js_jquery.dataTables.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -1084,6 +1110,18 @@
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/rails" />
         <root url="file://C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor" />
       </SOURCES>
+    </library>
+    <library name="select2.full" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_select2_4.0.3_js_select2.full.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_select2_4.0.3_js_select2.full.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
     </library>
     <library name="shell" type="javaScript">
       <properties>
