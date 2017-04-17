@@ -1283,5 +1283,17 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="zh-CN" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_select2_4.0.3_js_i18n_zh-CN.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_select2_4.0.3_js_i18n_zh-CN.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
   </component>
 </application>
