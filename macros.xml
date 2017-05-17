@@ -1,8 +1,0 @@
-<application>
-  <component name="ActionMacroManager">
-    <macro name="paste to word at current caret">
-      <action id="EditorSelectWord" />
-      <action id="EditorPaste" />
-    </macro>
-  </component>
-</application>
