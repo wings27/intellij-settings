@@ -1,8 +1,0 @@
-<application>
-  <component name="HttpConfigurable">
-    <option name="PROXY_TYPE_IS_SOCKS" value="true" />
-    <option name="PROXY_HOST" value="127.0.0.1" />
-    <option name="PROXY_PORT" value="8032" />
-    <option name="PROXY_EXCEPTIONS" value="*.oschina.net,*.fourb*.*, 10.18.20.*,192.168.*" />
-  </component>
-</application>
