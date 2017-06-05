@@ -5,7 +5,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="res" value="@javax.annotation.Resource&#10;    private $TYPE$ $camelType$;&#10;    " description="" toReformat="true" toShortenFQNames="true">
+  <template name="res" value="@org.springframework.beans.factory.annotation.Autowired&#10;    private $TYPE$ $camelType$;&#10;    " description="" toReformat="true" toShortenFQNames="true">
     <variable name="TYPE" expression="className()" defaultValue="" alwaysStopAt="true" />
     <variable name="camelType" expression="decapitalize(TYPE)" defaultValue="" alwaysStopAt="false" />
     <context>
