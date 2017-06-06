@@ -1,7 +1,7 @@
 <scheme name="wings" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2017-06-06T12:47:37</property>
+    <property name="modified">2017-06-06T15:09:00</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <font>
@@ -14,6 +14,7 @@
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <attributes>
     <option name="ABSTRACT_METHOD_ATTRIBUTES">
       <value />
