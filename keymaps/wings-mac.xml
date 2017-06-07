@@ -1,0 +1,18 @@
+<keymap version="1" name="wings-mac" parent="Mac OS X">
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="ShowExecutionPoint" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="alt f10" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="shift ctrl meta m" />
+  </action>
+</keymap>
