@@ -3,6 +3,10 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="meta k" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift meta enter" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
@@ -45,6 +49,10 @@
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl meta m" />
