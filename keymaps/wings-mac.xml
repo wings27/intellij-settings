@@ -7,6 +7,8 @@
     <keyboard-shortcut first-keystroke="meta k" />
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift meta enter" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
@@ -29,6 +31,7 @@
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt j" />
@@ -37,6 +40,8 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta right" />
   </action>
+  <action id="Groovy.Shell.Execute" />
+  <action id="KotlinShellExecute" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -44,6 +49,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl x" />
   </action>
   <action id="ShowExecutionPoint" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="alt f10" />
   </action>
@@ -54,6 +63,7 @@
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
+  <action id="ViewSource" />
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl meta m" />
   </action>
