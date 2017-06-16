@@ -27,7 +27,8 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="logger" value="private static final org.apache.logging.log4j.Logger LOGGER = org.apache.logging.log4j.LogManager.getLogger();" description="" toReformat="true" toShortenFQNames="true">
+  <template name="logger" value="private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
