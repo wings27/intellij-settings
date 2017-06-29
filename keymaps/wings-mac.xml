@@ -42,7 +42,7 @@
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
-    <keyboard-shortcut first-keystroke="alt k" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift meta j" />
@@ -66,7 +66,7 @@
   <action id="EditorSplitLine" />
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
