@@ -68,6 +68,7 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
@@ -77,6 +78,9 @@
   </action>
   <action id="Groovy.Shell.Execute" />
   <action id="KotlinShellExecute" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
