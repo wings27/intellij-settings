@@ -1,0 +1,16 @@
+<application>
+  <component name="libraryTable">
+    <library name="underscore" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_underscore.js_1.8.3_underscore.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.bootcss.com_underscore.js_1.8.3_underscore.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>
