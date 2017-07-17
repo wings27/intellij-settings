@@ -77,6 +77,7 @@
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="Groovy.Shell.Execute" />
+  <action id="JProfiler.ShowJProfiler" />
   <action id="KotlinShellExecute" />
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
@@ -87,17 +88,22 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
+  <action id="ShowBookmarks" />
   <action id="ShowExecutionPoint" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="StepInto">
-    <keyboard-shortcut first-keystroke="alt f10" />
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f11" />
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="ToggleBookmark" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta k" />
     <keyboard-shortcut first-keystroke="shift ctrl k" />
