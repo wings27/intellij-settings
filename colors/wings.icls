@@ -1,12 +1,12 @@
 <scheme name="wings" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2017-07-19T16:47:41</property>
+    <property name="modified">2017-07-19T17:13:07</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
