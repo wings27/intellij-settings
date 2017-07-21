@@ -3,9 +3,8 @@
     <option name="SHOW_IMPORTS" value="false" />
   </component>
   <component name="UsageViewSettings">
-    <option name="expanded" value="true" />
-    <option name="IS_EXPANDED" value="true" />
-    <option name="IS_PREVIEW_USAGES" value="true" />
-    <option name="PREVIEW_USAGES_SPLITTER_PROPORTIONS" value="0.36260915" />
+    <option name="GROUP_BY_USAGE_TYPE" value="false" />
+    <option name="GROUP_BY_MODULE" value="false" />
+    <option name="GROUP_BY_PACKAGE" value="false" />
   </component>
 </application>
