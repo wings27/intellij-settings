@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="0-snapshot-957130525" type="Native" />
       <mapping pattern=".donotdelete" type="PLAIN_TEXT" />
       <mapping pattern="li" type="PLAIN_TEXT" />
     </extensionMap>
