@@ -6,6 +6,7 @@
       <mapping pattern=".donotdelete" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping ext="inc" type="PLAIN_TEXT" />
+      <mapping pattern="assembly" type="XML" />
     </extensionMap>
   </component>
 </application>
