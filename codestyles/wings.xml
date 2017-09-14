@@ -1,4 +1,5 @@
 <code_scheme name="wings">
+  <option name="AUTODETECT_INDENTS" value="false" />
   <option name="OTHER_INDENT_OPTIONS">
     <value>
       <option name="INDENT_SIZE" value="4" />
@@ -12,6 +13,7 @@
     </value>
   </option>
   <option name="LINE_SEPARATOR" value="&#10;" />
+  <option name="RIGHT_MARGIN" value="100" />
   <option name="JD_DO_NOT_WRAP_ONE_LINE_COMMENTS" value="true" />
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />

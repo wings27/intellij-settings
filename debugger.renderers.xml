@@ -1,7 +1,5 @@
 <application>
   <component name="NodeRendererSettings">
-    <option name="HEX_VIEW_ENABLED" value="false" />
-    <option name="ALTERNATIVE_COLLECTION_VIEW_ENABLED" value="true" />
     <Renderer ID="ArrayRenderer">
       <option name="NAME" value="unnamed" />
       <option name="ENABLED" value="true" />
@@ -28,5 +26,16 @@
       <option name="NAME" value="Primitive" />
       <option name="SHOW_HEX_VALUE" value="false" />
     </Renderer>
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="int" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="int" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="int" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
   </component>
 </application>

@@ -40,6 +40,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt f9" />
     <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
+  <action id="ForceStepOver">
+    <keyboard-shortcut first-keystroke="alt f10" />
+  </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
@@ -72,19 +75,18 @@
   <action id="RunJsbtTask" />
   <action id="SelectNextOccurrence" />
   <action id="ShowBookmarks" />
+  <action id="ShowExecutionPoint" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="ctrl alt f7" />
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="SmartStepInto">
-    <keyboard-shortcut first-keystroke="shift f7" />
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="StepOut">
-    <keyboard-shortcut first-keystroke="shift f8" />
     <keyboard-shortcut first-keystroke="shift f11" />
   </action>
   <action id="StepOver">

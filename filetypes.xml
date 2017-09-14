@@ -1,11 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="jsonl" type="JSON" />
-      <mapping pattern="a" type="Native" />
-      <mapping ext="xmind" type="Native" />
-      <mapping ext="text" type="PLAIN_TEXT" />
-      <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="0-snapshot-957130525" type="Native" />
+      <mapping pattern="li" type="PLAIN_TEXT" />
+      <mapping pattern=".donotdelete" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping ext="inc" type="PLAIN_TEXT" />
+      <mapping pattern="assembly" type="XML" />
     </extensionMap>
   </component>
 </application>
