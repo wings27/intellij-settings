@@ -4,6 +4,10 @@
       <display-name>Select.value (org.apache.ibatis.annotations)</display-name>
       <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Select")]]></place>
     </injection>
+    <injection language="MySQL" injector-id="xml">
+      <display-name>select</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("select")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
+    </injection>
     <injection language="JavaScript" injector-id="xml">
       <display-name>span/@click</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("click")).withParent(xmlTag().withLocalName(string().equalTo("span")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
