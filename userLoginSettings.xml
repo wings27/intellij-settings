@@ -1,6 +1,7 @@
 <application>
   <component name="UserLoginSettings">
     <option name="lastLogin" value="1511161577990" />
+    <option name="locale" value="zh" />
     <option name="login" value="true" />
     <option name="loginInterval" value="Yearly" />
     <option name="nextLogin" value="1542265577990" />
