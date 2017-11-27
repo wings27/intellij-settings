@@ -86,6 +86,9 @@
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
