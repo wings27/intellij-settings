@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="MySQL" injector-id="java">
+      <display-name>Select.value (org.apache.ibatis.annotations)</display-name>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.apache.ibatis.annotations.Select")]]></place>
+    </injection>
+  </component>
+</application>

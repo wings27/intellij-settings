@@ -1,0 +1,79 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="RecentTaskRepositories">
+    <JIRA shared="true" url="https://flow-in.sankuai.com">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password>dffddfc3dfc4dfcddfd9df98df9ddfd9dfc1df98</password>
+      <option name="inCloud" value="false" />
+      <option name="jiraVersion" value="7.4.0" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="searchQuery" value="project=WM-商家产品-OPEN AND status != Closed ORDER BY updated" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>wenqiushi</username>
+    </JIRA>
+    <JIRA shared="false" url="https://task.sankuai.com">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>{id} [{summary}]</commitMessageFormat>
+      <password>dffddfc3dfc4dfcddfd9df98df9ddfd9dfc1df9b</password>
+      <option name="inCloud" value="false" />
+      <option name="jiraVersion" value="7.2.3" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>wenqiushi</username>
+    </JIRA>
+    <JIRA shared="false" url="https://flow.sankuai.com">
+      <option name="apiType" value="REST_2_0" />
+      <commitMessageFormat>{id} [{summary}]</commitMessageFormat>
+      <password>dffddfc3dfc4dfcddfd9df98df9ddfd9dfc1df9b</password>
+      <option name="inCloud" value="false" />
+      <option name="jiraVersion" value="7.4.0" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="searchQuery" value="assignee = currentUser() and resolution = Unresolved order by updated" />
+      <option name="shouldFormatCommitMessage" value="true" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>wenqiushi</username>
+    </JIRA>
+  </component>
+  <component name="RefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_PACKAGE" value="false" />
+    <option name="RENAME_SEARCH_FOR_TEXT_FOR_PACKAGE" value="false" />
+    <option name="ENCAPSULATE_FIELDS_USE_ACCESSORS_WHEN_ACCESSIBLE" value="false" />
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+</application>
