@@ -1,9 +1,0 @@
-<toolSet name="External Tools">
-  <tool name="deploy-cmdbweb" description="deploy cmdbweb" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false" CONNECTION_TYPE="DEPLOYMENT_SERVER" CONNECTION_ID="c72ce063-25f5-4685-8c8f-817734bcec9d">
-    <exec>
-      <option name="COMMAND" value="./git-flow-master.sh" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="/home/op-pack/cmdbweb" />
-    </exec>
-  </tool>
-</toolSet>

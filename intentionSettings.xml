@@ -1,6 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="Annotations/Expand Annotation to Normal Form" />
-    <ignoreAction name="Java/Control Flow/Create switch statement" />
-  </component>
-</application>
