@@ -1,32 +1,40 @@
 <application>
-  <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="root@localhost" uuid="2298ee2d-4ac6-4860-8ea6-e43c00bfb1e0">
-      <driver-ref>mysql</driver-ref>
+  <component name="dataSourceStorage" format="xml">
+    <data-source source="LOCAL" name="cmdbweb:root@localhost" uuid="3e848963-09cc-4055-91ef-4032ec2acdee">
+      <driver-ref>42445bef-d9b9-4653-974d-b3cbe2127baf</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/cmdbweb</jdbc-url>
       <driver-properties>
-        <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />
         <property name="characterEncoding" value="utf8" />
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar</url>
+        </library>
+      </libraries>
     </data-source>
-    <data-source source="LOCAL" name="q3boy@dev.db(10.4.241.96)" uuid="20b7389e-270f-4beb-94ec-a9cad0e3fc4e">
-      <driver-ref>mysql</driver-ref>
+    <data-source source="LOCAL" name="oums:root@localhost" uuid="84bedaa4-61c1-44e4-8015-edc1a2f5e57c">
+      <driver-ref>42445bef-d9b9-4653-974d-b3cbe2127baf</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://dev.db:3306/infer_server</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/oums</jdbc-url>
       <driver-properties>
-        <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
         <property name="tinyInt1isBit" value="false" />
         <property name="characterEncoding" value="utf8" />
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
+      <libraries>
+        <library>
+          <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </application>

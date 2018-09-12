@@ -1,0 +1,16 @@
+<application>
+  <component name="JRebel Persistent Settings">
+    <option name="disabled">
+      <map>
+        <entry key="notify.achievements" value="true" />
+      </map>
+    </option>
+    <option name="numvals">
+      <map>
+        <entry key="rebel.idea.log.level" value="4" />
+        <entry key="stats.last.deploy.count" value="1500" />
+        <entry key="stats.last.val" value="25" />
+      </map>
+    </option>
+  </component>
+</application>

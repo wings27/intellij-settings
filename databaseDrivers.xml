@@ -1,21 +1,16 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
-    <driver id="exasol">
-      <artifact name="Exasol" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
     <driver id="h2.unified">
       <artifact name="H2" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="azure.ms">
       <artifact name="SQL Server" use="true" />
-      <option name="auto-sync" value="true" />
-      <option name="send-app-info" value="false" />
+      <option name="auto-sync" value="false" />
     </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
-      <option name="auto-sync" value="true" />
+      <option name="auto-sync" value="false" />
       <option name="auto-commit" value="false" />
     </driver>
     <driver id="derby.embedded">
@@ -24,11 +19,11 @@
     </driver>
     <driver id="sybase.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="true" />
+      <option name="auto-sync" value="false" />
     </driver>
     <driver id="sqlserver.jtds">
       <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="true" />
+      <option name="auto-sync" value="false" />
     </driver>
     <driver id="hsqldb.local">
       <artifact name="HSQLDB" use="true" />
@@ -43,7 +38,7 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sybase.ase">
-      <option name="auto-sync" value="true" />
+      <option name="auto-sync" value="false" />
     </driver>
     <driver id="postgresql">
       <artifact name="PostgreSQL" use="true" />
@@ -59,18 +54,35 @@
     </driver>
     <driver id="sqlserver.ms">
       <artifact name="SQL Server" use="true" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="42445bef-d9b9-4653-974d-b3cbe2127baf" name="mysql" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
+      <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
+      <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:identifier}&gt;]" />
+      <artifact name="MySQL Connector/J" use="true" version="5.1.40" />
       <option name="auto-sync" value="true" />
-      <option name="send-app-info" value="false" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
+      <property name="zeroDateTimeBehavior" value="convertToNull" />
+      <property name="tinyInt1isBit" value="false" />
+      <property name="characterEncoding" value="utf8" />
+      <property name="characterSetResults" value="utf8" />
+      <property name="yearIsDateType" value="false" />
+      <library>
+        <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar</url>
+      </library>
     </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" version="5.1.45" />
+      <artifact name="MySQL Connector/J" use="true" version="5.1.40" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
+      <library>
+        <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar</url>
+      </library>
     </driver>
     <driver id="hsqldb.remote">
       <artifact name="HSQLDB" use="true" />

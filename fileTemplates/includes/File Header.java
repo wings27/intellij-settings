@@ -1,4 +1,4 @@
 /**
- * Created by wenqiushi on ${YEAR}-${MONTH}-${DAY}.
- * @author wenqiushi
+ * Project ${PROJECT_NAME}
+ * Created by ${USER} on ${YEAR}-${MONTH}-${DAY} ${TIME}.
  */

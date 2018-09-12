@@ -1,0 +1,3 @@
+<application>
+  <component name="MavenVersion" vmOptions="-Xmx512m  -Dmaven3.use.compat.resolver  " />
+</application>

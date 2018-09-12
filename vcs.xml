@@ -1,7 +1,13 @@
 <application>
-  <component name="Vcs.Log.App.Settings">
-    <option name="SHOW_TAG_NAMES" value="true" />
-    <option name="MIGRATED" value="true" />
-    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="ssh://git@gitlab.info:10022/fourb-dev/spring4mvc-base-annotaion-demo.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="D:\JAVA" />
   </component>
 </application>

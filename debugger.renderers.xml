@@ -1,5 +1,12 @@
 <application>
   <component name="NodeRendererSettings">
+    <Renderer ID="ArrayRenderer">
+      <option name="NAME" value="unnamed" />
+      <option name="ENABLED" value="true" />
+      <option name="START_INDEX" value="0" />
+      <option name="END_INDEX" value="99" />
+      <option name="ENTRIES_LIMIT" value="99" />
+    </Renderer>
     <Renderer ID="ToStringRenderer">
       <option name="NAME" value="unnamed" />
     </Renderer>
@@ -19,5 +26,25 @@
       <option name="NAME" value="Primitive" />
       <option name="SHOW_HEX_VALUE" value="false" />
     </Renderer>
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="com.sankuai.meituan.waimai.domain.WmProject" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.sankuai.meituan.waimai.domain.WmProject" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="com.sankuai.meituan.waimai.domain.WmProject" />
+          <option name="LABEL_EXPRESSION" value="this.getAppkey()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="int" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="int" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="int" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
   </component>
 </application>
