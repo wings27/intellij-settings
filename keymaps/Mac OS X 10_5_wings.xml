@@ -1,1 +1,23 @@
-<keymap version="1" name="Mac OS X 10.5+wings" parent="Mac OS X 10.5+" />
+<keymap version="1" name="Mac OS X 10.5+wings" parent="Mac OS X 10.5+">
+  <action id="Console.Oracle.DbmsOutput" />
+  <action id="ForceRunToCursor">
+    <keyboard-shortcut first-keystroke="meta f8" />
+  </action>
+  <action id="JProfiler.ShowJProfiler" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="RunToCursor" />
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+</keymap>
