@@ -2,6 +2,9 @@
   <action id="Console.Oracle.DbmsOutput" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="meta f8" />
   </action>
