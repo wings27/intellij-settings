@@ -3,6 +3,7 @@
     <resource url="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" location="$USER_HOME$/.IntelliJIdea14/system/extResources/a8440932_archetype-descriptor-1.0.0.xsd" />
     <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="$USER_HOME$/.IntelliJIdea14/system/extResources/69c70a2f_mybatis-3-config.dtd" />
     <resource url="http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" location="$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.jar!/org/mybatis/generator/config/xml/mybatis-generator-config_1_0.dtd" />
+    <resource url="http://pixel.sankuai.com/repository/releases/com/meituan/apidoc/servicecatalog/1.0.0/servicecatalog-1.0.0.xsd" location="$USER_HOME$/Library/Caches/IntelliJIdea2018.2/extResources/98a86ddb_servicecatalog-1.0.0.xsd" />
     <ignored-resource url="http://www.zeroturnaround.com" />
   </component>
 </application>
