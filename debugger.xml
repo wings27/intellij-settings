@@ -90,6 +90,11 @@
       </Renderer>
     </CustomRenderers>
   </component>
+  <component name="ThreadsViewSettings">
+    <option name="SHOW_PACKAGE_NAME" value="false" />
+    <option name="SHOW_SOURCE_NAME" value="true" />
+    <option name="SHOW_SYNTHETIC_FRAMES" value="false" />
+  </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general>
