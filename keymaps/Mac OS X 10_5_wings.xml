@@ -2,13 +2,34 @@
   <action id="Console.Oracle.DbmsOutput" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift meta j" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="meta f8" />
   </action>
   <action id="JProfiler.ShowJProfiler" />
+  <action id="MarkdownNavigator.InsertLink" />
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
   <action id="Resume">
