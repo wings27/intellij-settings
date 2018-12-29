@@ -1,7 +1,7 @@
 <scheme name="wings" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2018-12-28T21:51:01</property>
+    <property name="modified">2018-12-29T14:32:21</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -21,7 +21,7 @@
     </option>
     <option name="BROWSEWORDATCARET">
       <value>
-        <option name="BACKGROUND" value="454d44" />
+        <option name="BACKGROUND" value="4e564d" />
         <option name="EFFECT_COLOR" value="b1bac0" />
         <option name="ERROR_STRIPE_COLOR" value="6f856d" />
       </value>
