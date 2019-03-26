@@ -2,6 +2,9 @@
   <action id="Console.Oracle.DbmsOutput" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
+  <action id="CreateSoaMethodDoc">
+    <keyboard-shortcut first-keystroke="ctrl meta alt d" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl n" />
