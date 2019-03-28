@@ -1,20 +1,16 @@
 <scheme name="wings" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2018-12-29T14:32:21</property>
+    <property name="modified">2019-03-28T11:02:00</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.0" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
-  </font>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <attributes>
     <option name="ABSTRACT_METHOD_ATTRIBUTES">
       <value />
@@ -34594,6 +34590,13 @@
     <option name="METHOD_DECLARATION_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffc66d" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="262b33" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
   </attributes>
