@@ -1,11 +1,11 @@
-<scheme name="_@user_Arc Dark" version="142" parent_scheme="Darcula">
+<scheme name="Arc Dark copy" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-12-29T16:11:00</property>
+    <property name="created">2019-05-13T20:01:14</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2018.3.2.0.0</property>
+    <property name="ideVersion">2019.1.2.0.0</property>
     <property name="modified">2019-05-13T20:02:01</property>
-    <property name="originalScheme">Arc Dark</property>
+    <property name="originalScheme">_@user_Arc Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="13" />
@@ -32917,7 +32917,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d3dae3" />
-        <option name="BACKGROUND" value="1f242a" />
+        <option name="BACKGROUND" value="262b33" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>

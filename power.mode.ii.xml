@@ -1,7 +1,11 @@
 <application>
   <component name="PowerModeII">
+    <option name="customBamImageFolder" value="$APPLICATION_HOME_DIR$/bin" />
+    <option name="customFlameImageFolder" value="$APPLICATION_HOME_DIR$/bin" />
     <option name="enabled" value="false" />
     <option name="flamesEnabled" value="false" />
-    <option name="shakeEnabled" value="false" />
+    <option name="isCaretAction" value="false" />
+    <option name="soundsFolder" value="$APPLICATION_HOME_DIR$/bin" />
+    <option name="sparksEnabled" value="false" />
   </component>
 </application>
