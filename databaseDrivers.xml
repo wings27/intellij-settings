@@ -37,6 +37,15 @@
     <driver id="sybase.ase">
       <option name="auto-sync" value="false" />
     </driver>
+    <driver id="mysql.8">
+      <artifact name="MySQL Connector/J 8" use="true" version="8.0.15" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
+    </driver>
     <driver id="mysql">
       <artifact name="MySQL Connector/J" use="true" version="5.1.46" />
       <option name="auto-sync" value="true" />
@@ -46,7 +55,6 @@
       <library>
         <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar</url>
       </library>
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
     <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" />
@@ -95,6 +103,24 @@
       <artifact name="Cassandra" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="vertica">
+      <artifact name="Vertica" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="hive">
+      <artifact name="Hive" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="greenplum">
+      <artifact name="PostgreSQL" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+      <option name="send-app-info" value="false" />
+    </driver>
+    <driver id="snowflake">
+      <artifact name="Snowflake" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="42445bef-d9b9-4653-974d-b3cbe2127baf" name="mysql" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
       <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
       <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:identifier}&gt;]" />
@@ -111,7 +137,6 @@
       <library>
         <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar</url>
       </library>
-      <code-style-scheme-name>Default</code-style-scheme-name>
     </driver>
   </component>
 </application>
