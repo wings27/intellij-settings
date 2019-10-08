@@ -58,6 +58,7 @@
           <option name="HIGHLIGHT_POLICY" value="BY_WORD_SPLIT" />
           <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
           <option name="SHOW_WHITESPACES" value="true" />
+          <option name="USE_SOFT_WRAPS" value="true" />
         </PlaceSettings>
       </entry>
       <entry key="Default">
