@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X 10.5+wings" parent="Mac OS X 10.5+">
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
   <action id="Console.Oracle.DbmsOutput" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
@@ -32,6 +35,7 @@
     <keyboard-shortcut first-keystroke="meta f8" />
   </action>
   <action id="JProfiler.ShowJProfiler" />
+  <action id="Kotlin.RunScratch" />
   <action id="MarkdownNavigator.InsertLink" />
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
