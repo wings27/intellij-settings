@@ -4,6 +4,9 @@
     <EXCLUDED_PACKAGE NAME="com.sun.tools.javac.util.List" />
     <EXCLUDED_PACKAGE NAME="org.mvel2.util.Make.List" />
   </component>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="15" />
+  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="SHOW_INLINE_DIALOG" value="false" />
