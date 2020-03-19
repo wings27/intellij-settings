@@ -36,6 +36,9 @@
   </action>
   <action id="JProfiler.ShowJProfiler" />
   <action id="Kotlin.RunScratch" />
+  <action id="MakeModule">
+    <keyboard-shortcut first-keystroke="meta f5" />
+  </action>
   <action id="MarkdownNavigator.InsertLink" />
   <action id="NextOccurence" />
   <action id="PreviousOccurence" />
